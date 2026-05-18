@@ -109,6 +109,30 @@ That's it.
 
 ---
 
+## contributing
+
+Want to suggest a tool or improve the launcher? PRs are welcome.
+
+### guidelines for adding a tool
+
+- the tool must be **open source** with a public GitHub repository
+- it must be fetched from its **official source** — no mirrors, no repacks
+- the `Cmd` must be a single self-contained PowerShell expression (same pattern as existing entries)
+- keep `Name` under ~20 chars and `Desc` short — it's a TUI, not a wiki
+
+### steps
+
+```
+1. fork the repo
+2. add your entry to the $tools array in WinToolsLauncher.ps1
+3. test it locally — make sure the tool launches correctly in an elevated window
+4. open a PR with a short description of what the tool does and a link to its repo
+```
+
+if you're not sure whether a tool fits, open an issue first.
+
+---
+
 <div align="center">
 <sub>v0.1 — github.com/s1z1-balance/wintools</sub>
 </div>
