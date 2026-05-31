@@ -67,7 +67,7 @@ powershell -ExecutionPolicy Bypass -File WinToolsLauncher.ps1
 ```
 WinToolsLauncher.ps1
 │
-├── Shows a numbered menu (TUI, black/red theme)
+├── Shows a numbered menu
 ├── Reads your input
 └── Launches selected tool
         └── Encodes the tool's command as Base64
