@@ -39,6 +39,8 @@ Each tool launches in its **own elevated PowerShell window**, so WinTools itself
 | 3 | **O&O ShutUp10++** | GUI antispy tool — granular control over Windows telemetry |
 | 4 | **WinUtil (CTT)** | Chris Titus Tech's all-in-one Windows utility |
 | 5 | **Win11Debloat** | Removes bloatware and disables telemetry (by Raphire) |
+| 6 | **MAS (Activation)** | HWID/KMS38 open-source activator |
+| 7 | **Optimizer** | Privacy and performance optimization utility |
 
 ---
 
